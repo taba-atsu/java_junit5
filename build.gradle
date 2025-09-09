@@ -13,7 +13,7 @@ version = '1.0-SNAPSHOT'
 ext.junitJupiterVersion  = '5.12.2'
 
 java {
-    sourceCompatibility = '23'
+    sourceCompatibility = '21'
 }
 
 tasks.withType(AbstractCompile) each { it.options.encoding = 'UTF-8' }
